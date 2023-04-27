@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link  css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--  Integrando el CSS  -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cuadros</title>
+
+
+    <style>
+        /* Estilo para el contenedor principal */
+        .faq-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            /* Crea columnas autoajustables */
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        /* Estilo para las preguntas */
+        .faq-question {
+            cursor: pointer;
+            padding: 1rem;
+            background-color: #f0f0f0;
+        }
+
+        /* Estilo para las respuestas */
+        .faq-answer {
+            display: none;
+            /* Las respuestas están ocultas por defecto */
+            padding: 1rem;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-blue">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+
+                    <img src="../img/logo/Eter-1.png    " alt="Eter-06.jpg" height="50">
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav text-center">
+
+                        <li class="nav-item me-1">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="cuadros.html"> Cuadros </a>
+                        </li>
+
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="guias-de-tamaños.html"> Guias de Tamaños </a>
+                        </li>
+
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="preguntas-frecuentes.html"> Preguntas Frecuentes </a>
+                        </li>
+
+                        <li class="nav-item me-1">
+                            <a class="nav-link" href="contactos.html"> Contactos </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+        <div class="faq-container">
+            <div class="faq-question ">
+                <h3 class="text-center">No tenemos revendedores</h3>
+
+                <br>
+                <p >Las ventas de nuestra tienda solo se realizan desde www.eter.com.ar por medio de
+                    mercadopago.
+
+                    No tenemos representantes ni revendedores.
+
+                    Desde nuestro perfil de instagram y facebook, únicamente asesoramos e informamos. No solicitamos
+                    dinero por ningún medio.
+
+                    Solo se adquieren los productos a través de nuestro sitio que cuenta con los protocolos
+                    necesarios para su compra segura.
+
+                    Las formas de pago nunca son presenciales.</p>
+            </div>
+
+            <div class="faq-question">
+
+                <h3 class="text-center">¿Dónde está mi cuadro?</h3>
+
+                <br>
+                <p>El número guía que te enviamos, lo utilizas en la página del correo. Ahí mismo te dirá donde se
+                    encuentra el mismo.</p>
+            </div>
+
+            <div class="faq-question">
+                <h3 class="text-center">¿Pueden hacerme un cuadro personalizado?</h3>
+
+                <br>
+                <p>Podes enviarnos las imagenes, que deben ser de buena calidad, a info@cuadrosdecorativos.com.ar</p>
+            </div>
+
+
+            <div class="faq-question">
+                <h3 class="text-center">Cuadro personalizado: ¿Cómo te envío las fotos?</h3>
+
+                <br>
+                <p>Los relojes son funcionales, reales, llevan pilas (no incluidas). Hay diseños de cuadros que traen
+                    reloj. </p>
+            </div>
+
+
+            <div class="faq-question">
+                <h3 class="text-center">¿El reloj es real?</h3>
+
+                <br>
+                <p>Los relojes son funcionales, reales, llevan pilas (no incluidas). Hay diseños de cuadros que traen
+                    reloj. </p>
+            </div>
+
+            <div class="faq-question">
+                <h3 class="text-center">¿Cómo me llega el cuadro?</h3>
+
+                <br>
+                <p>El cuadro te llega a la puerta de tu casa (o dirección que indiques) por medio del correo argentino.
+                    Cuando despachamos el cuadro te enviamos un número guía para que a través de la página oficial del
+                    correo, puedas rastrearlo. El cuadro llega embalado de tal manera que no sufre daño alguno.</p>
+            </div>
+
+            <div class="faq-question">
+            
+                <h3 class="text-center">¿Puedo abonar con dos tarjetas?</h3>
+
+                <br>
+                <p>Sí, mercadopago te da la posibilidad de ingresar dos tarjetas simultaneamente e indicar el monto de
+                    cada una.</p>
+            </div>
+
+            <div class="faq-question">
+                <h3 class="text-center">Quiero regalar un cuadro. ¿Enviar a alguien más?</h3>
+
+                <br>
+                <p>Si, podes elegir a nombre de otra persona e indicar una dirección postal diferente a la tuya, para
+                    que reciba el cuadro.</p>
+            </div>
+
+            <div class="faq-question">
+                <h3 class="text-center">¿Cómo cuelgo los cuadros?</h3>
+
+                <br>
+                <p>Es muy simple colgarlos:
+                    <br>
+                    1 · Medís a que altura lo querés colgar, y marcas una x donde va el clavo o tornillo.
+                    <br>
+                    2 · Colocas sobre la línea dos clavos o tornillos dependiendo la pared o superficie, calculando una
+                    medida menor al ancho del cuadro.
+                    <br>
+                    3 · Por último, apoyas el listón superior del cuadro sobre los clavos o tornillos ya amurados en el
+                    paso anterior.
+                </p>
+            </div>
+
+            <div class="faq-question">
+                <h3 class="text-center">¿Cómo son los cuadros?</h3>
+
+                <br>
+                <p>Los cuadros están construidos de un soporte rígido (madera mdf pintada) con una lámina adherida,
+                    impresa en calidad fotográfica, laqueados y sellados para su mayor durabilidad</p>
+            </div>
+
+            <!-- Añadir más preguntas aquí -->
+        </div>
+
+        <script>
+            // Obtener todas las preguntas
+            const questions = document.querySelectorAll('.faq-question');
+
+            // Agregar evento de clic a cada pregunta
+            questions.forEach(question => {
+                question.addEventListener('click', () => {
+                    // Obtener el elemento de respuesta asociado a la pregunta
+                    const answer = question.nextElementSibling;
+
+                    // Alternar la visibilidad de la respuesta al hacer clic en la pregunta
+                    answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+                });
+            });
+        </script>
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+
+        <div class="lista-barra-navegacion">
+
+            <h3>Navegador</h3>
+
+
+            <ul class="lista-nav">
+
+                <li><a class="nav-link" href="../index.html">Inicio </a></li>
+                <li><a class="nav-link" href="cuadros.html" class="link-F2">Cuadros</a></li>
+                <li><a class="nav-link" href="guias-de-tamaños.html" class="link-F3">Guias de Tamaños</a></li>
+                <li><a class="nav-link" href="preguntas-frecuentes.html" class="link-F4">Preguntas Frecuentes</a></li>
+                <li><a class="nav-link" href="contactos.html" class="link-F5">Contactos</a></li>
+
+            </ul>
+
+
+
+        </div>
+
+
+
+        <div>
+
+            <section>
+                <article>
+                    <h3 class="parrafo-3">Contactanos</h3>
+                    <h4 class="contenido-pie-1"> 1167487899</h4>
+                    <h4 class="contenido-pie-2">eter.designs@gmail.com</h4>
+                    <h4 class="contenido-pie-3">Punto de Retiro: palermo 25414 CABA</h4>
+
+                </article>
+            </section>
+
+            <div>
+                <section class="med-pago">
+
+                    <h3 class="parrafo-4">Medios de Pagos</h3>
+
+                    <article>
+
+                        <img src="../img/medios-pagoss/visa.png" alt="Visa" height="70">
+                        <img src="../img/medios-pagoss/master.png" alt="master" height="70">
+                        <img src="../img/medios-pagoss/amex.png" alt="amez" height="70">
+
+                    </article>
+
+                </section>
+
+            </div>
+
+            <div>
+                <section class="logo-what">
+                    <article>
+                        <img src="../img/FOOTER/WhatsApp_icon.png" alt="WhatsApp_ico"
+                            height="80">
+                    </article>
+                </section>
+            </div>
+
+
+
+
+        </div>
+
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
